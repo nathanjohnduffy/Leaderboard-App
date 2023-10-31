@@ -1,0 +1,87 @@
+﻿<Window x:Class="LeaderBoard_App.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeaderBoard_App"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="1080" Width="1920" WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Rectangle HorizontalAlignment="Left" Margin="10,0,0,882" Stroke="Black" Width="774" Height="165" VerticalAlignment="Bottom"/>
+        <Rectangle HorizontalAlignment="Left" Height="133" Margin="10,180,0,0" Stroke="Black" VerticalAlignment="Top" Width="774"/>
+        <Rectangle HorizontalAlignment="Left" Height="133" Margin="10,313,0,0" Stroke="Black" VerticalAlignment="Top" Width="774"/>
+        <TextBlock HorizontalAlignment="Left" Margin="13,17,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" TextDecorations="Underline"><Run Text="Data Grid "/><Run Language="en-gb" Text="Submission"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="13,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" TextDecorations="Underline"><Run Language="en-gb" Text="Data Grid Options:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="13,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" TextDecorations="Underline"><Run Language="en-gb" Text="Main Window Options:"/></TextBlock>
+        <Rectangle HorizontalAlignment="Left" Height="133" Margin="13,921,0,0" Stroke="Black" VerticalAlignment="Top" Width="774"/>
+        <TextBlock HorizontalAlignment="Left" Margin="16,923,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" TextDecorations="Underline"><Run Text="Load"/><Run Language="en-gb" Text=" + Start"/><Run Text=" Options:"/></TextBlock>
+        <Rectangle HorizontalAlignment="Left" Height="133" Margin="13,788,0,0" Stroke="Black" VerticalAlignment="Top" Width="774"/>
+        <TextBlock HorizontalAlignment="Left" Margin="16,790,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" TextDecorations="Underline"><Run Language="en-gb" Text="Export Options:"/></TextBlock>
+
+        <Rectangle HorizontalAlignment="Left" Height="133" Margin="10,446,0,0" Stroke="Black" VerticalAlignment="Top" Width="774"/>
+        <TextBlock HorizontalAlignment="Left" Margin="14,446,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" TextDecorations="Underline" Text="Leaderboard Options:"/>
+        <ComboBox x:Name="cobLeaderboardSelect" DropDownClosed="FilterLeaderboard" HorizontalAlignment="Left" Margin="433,78,0,0" VerticalAlignment="Top" Width="120">
+            
+        </ComboBox>
+
+
+        <TextBox Name="tbNameEntry" Margin="18,90,0,0" TextWrapping="Wrap" Text="Enter Name" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120"/>
+        <Button Name="btSubmitName" Click="Submission_Click" Content="Submit!" HorizontalAlignment="Left" Margin="603,80,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="tbIdEntry"  HorizontalAlignment="Left" Margin="101,212,0,0" TextWrapping="Wrap" Text="Enter ID" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btShowIdMain" Click="mainWindowViewId" Content="Show on Main Window" HorizontalAlignment="Left" Margin="242,206,0,0" VerticalAlignment="Top"/>
+        <Button Click="StartTimer" Content="Start Timer" HorizontalAlignment="Left" Margin="180,70,0,0" VerticalAlignment="Top"/>
+        <Button Click="StopTimer" Content="Stop Timer" HorizontalAlignment="Left" Margin="180,95,0,0" VerticalAlignment="Top" Width="62"/>
+        <Button Click="ResetTimer" Content="Reset Timer" HorizontalAlignment="Left" Margin="244,126,0,0" VerticalAlignment="Top" Width="62"/>
+        <TextBlock x:Name="txtAdminTimer" TextWrapping="Wrap" Height="65" Width="159" FontSize="45" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="UltraBold" Margin="254,61,0,0"><Run Language="en-gb" Text="0"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="448,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline" FontSize="15"><Run Language="en-gb" Text="Leaderboards"/></TextBlock>
+        
+        <ComboBox x:Name="cobLeaderboardOptions" DropDownClosed="FilterLeaderboard" HorizontalAlignment="Left" Margin="109,469,0,0" VerticalAlignment="Top" Width="120">
+            
+        </ComboBox>
+        <TextBox Name="tbLeaderoardOptionsName" HorizontalAlignment="Left" Margin="109,504,0,0" TextWrapping="Wrap" Text="Leaderboard Name..." VerticalAlignment="Top" Width="120"/>
+        <Button Name="btLeaderboardOptionsEdit" Click="btnShowLeaderboardDetails" Content="Edit" HorizontalAlignment="Left" Margin="254,470,0,0" VerticalAlignment="Top"/>
+        <Button Name="btLeaderboardOptionsSubmit" Click="btnUpdateLeaderboardDetails" Content="Submit Changes" HorizontalAlignment="Left" Margin="253,503,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="109,536,0,0" VerticalAlignment="Top" Width="157">
+            <ComboBoxItem IsSelected="True" Content="Colour *In Development"/>
+            <ComboBoxItem Content="Coming Soon!"/>
+        </ComboBox>
+
+        <DataGrid Name="dgAdminLeaderbooard" d:ItemsSource="{d:SampleData ItemCount=5}" IsReadOnly="True" Margin="1024,0,500,0" RenderTransformOrigin="1,0.5">
+            <DataGrid.RenderTransform>
+                <TransformGroup>
+                    <TranslateTransform X="500"/>
+                </TransformGroup>
+            </DataGrid.RenderTransform>
+        </DataGrid>
+
+        <Button Name="btnStandbyTab" Click="switchTab" Content="Standby" HorizontalAlignment="Left" Margin="66,377,0,0" VerticalAlignment="Top"/>
+        <Button Name="btnLeaderboardTab" Click="switchTab" Content="Leaderboard" HorizontalAlignment="Left" Margin="134,377,0,0" VerticalAlignment="Top"/>
+        <Button Name="btnTimerTab" Click="switchTab" Content="Timer" HorizontalAlignment="Left" Margin="225,377,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="56,356,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline"><Run Text="Set Main"/><Run Language="en-gb" Text=" "/><Run Text="Window View"/><Run Language="en-gb" Text=":"/></TextBlock>
+        <TextBlock Name="txtCurrentView" HorizontalAlignment="Left" Margin="410,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"><Run Language="en-gb" Text="Current View = ___________"/></TextBlock>
+
+        <Button Content="Create Winners Pdf Certificate" Click="pdfEdit" HorizontalAlignment="Left" Margin="59,845,0,0" VerticalAlignment="Top"/>
+
+        <Button Click="loadData" Content="Load" HorizontalAlignment="Left" Margin="114,978,0,0" VerticalAlignment="Top"/>
+        <Button Click="saveDataDecision" Content="New Save" HorizontalAlignment="Left" Margin="193,978,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.505,0.725"/>
+        <TextBlock HorizontalAlignment="Left" Margin="199,1019,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="*All changes automa"/><Run Text="tically save"/><Run Language="en-gb" Text="d after new save file made or old one loaded"/></TextBlock>
+
+        <TextBox Name="tbNameEdit" HorizontalAlignment="Left" Margin="101,252,0,0" TextWrapping="Wrap" Text="Name..." VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbSecondsEdit" HorizontalAlignment="Left" Margin="101,278,0,0" TextWrapping="Wrap" Text="Seconds..." VerticalAlignment="Top" Width="120"/>
+        <Button Click="DisplayEditDetails" Content="Edit" HorizontalAlignment="Left" Margin="242,251,0,0" VerticalAlignment="Top"/>
+        <Button Click="UpdateEditDetails" Content="Submit Changes" HorizontalAlignment="Left" Margin="242,278,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="540,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline" FontSize="15"><Run Language="en-gb" Text="Filters:"/></TextBlock>
+        <ComboBox Name="cobLeaderboardFilter" DropDownClosed="FilterLeaderboard" HorizontalAlignment="Left" Margin="505,223,0,0" VerticalAlignment="Top" Width="120">
+            
+        </ComboBox>
+
+
+        <Image Margin="921,24,660,699" Source="/AstronautLogo.png"/>
+        <CheckBox Name="cbAutoWindowSwitch" IsChecked="True" Content="Auto Window Switching" HorizontalAlignment="Left" Margin="266,335,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btRemoveId_Copy" Click="DeleteSubmission_Click" Content="Remove" HorizontalAlignment="Left" Margin="165,187,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbWindowFullscreen" Click="MainWindowFullscreen" Content="Main Window Fullscreen" HorizontalAlignment="Left" Margin="587,338,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

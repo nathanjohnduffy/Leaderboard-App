@@ -1,0 +1,4 @@
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\app.publish\LeaderBoard App.pdb
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\app.publish\libHarfBuzzSharp.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\app.publish\libSkiaSharp.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\app.publish\LeaderBoard App.exe

@@ -1,0 +1,9 @@
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\Published\LeaderBoard App.pdb
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\Published\D3DCompiler_47_cor3.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\Published\PenImc_cor3.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\Published\PresentationNative_cor3.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\Published\vcruntime140_cor3.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\Published\wpfgfx_cor3.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\Published\libHarfBuzzSharp.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\Published\libSkiaSharp.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\Published\LeaderBoard App.exe

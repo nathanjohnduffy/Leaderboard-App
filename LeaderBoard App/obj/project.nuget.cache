@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "kkxKWtl3zna5VrZVVO4nICvvKmlGbMq4PV/xIMDdLKE3MSonURjiNLn3QM7qR1jOn70Qx6Ftss34Pl0yUr3Wxw==",
+  "success": true,
+  "projectFilePath": "D:\\Nathan\\Dropbox\\Nathan's PC\\Documents\\Home\\RandomGuyStudios\\RGDeveloping\\VS2022\\Leaderboard\\LeaderBoard App\\LeaderBoard App\\LeaderBoard App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nathan\\.nuget\\packages\\gembox.pdf\\17.0.1371\\gembox.pdf.17.0.1371.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\harfbuzzsharp\\2.8.2\\harfbuzzsharp.2.8.2.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\2.8.2\\harfbuzzsharp.nativeassets.macos.2.8.2.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\2.8.2\\harfbuzzsharp.nativeassets.win32.2.8.2.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\pkcs11interop\\5.1.1\\pkcs11interop.5.1.1.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\skiasharp\\2.88.3\\skiasharp.2.88.3.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.3\\skiasharp.nativeassets.macos.2.88.3.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.3\\skiasharp.nativeassets.win32.2.88.3.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Nathan\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

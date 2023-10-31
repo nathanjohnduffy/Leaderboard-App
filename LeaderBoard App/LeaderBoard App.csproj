@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>LeaderBoard_App</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <Company>RGDeveloping</Company>
+    <Authors>Nathan Duffy</Authors>
+    <PackageIcon>Icon.png</PackageIcon>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Astronaut.png" />
+    <None Remove="AstronautLogo.png" />
+    <None Remove="ModernBackground.png" />
+    <None Remove="SpaceBackground.jpg" />
+    <None Remove="SpaceBackgroundBackup.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GemBox.Pdf" Version="17.0.1371" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Astronaut.png" />
+    <Resource Include="AstronautLogo.png" />
+    <Resource Include="ModernBackground.png" />
+    <Resource Include="SpaceBackground.jpg" />
+    <Resource Include="SpaceBackgroundBackup.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Icon.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

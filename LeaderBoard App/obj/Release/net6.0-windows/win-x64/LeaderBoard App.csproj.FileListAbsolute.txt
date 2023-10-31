@@ -1,0 +1,35 @@
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\LeaderBoard App.exe
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\LeaderBoard App.deps.json
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\LeaderBoard App.runtimeconfig.json
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\LeaderBoard App.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\LeaderBoard App.pdb
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\GemBox.Pdf.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\HarfBuzzSharp.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\Pkcs11Interop.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\BouncyCastle.Crypto.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\SkiaSharp.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\libHarfBuzzSharp.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\libSkiaSharp.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App.csproj.AssemblyReference.cache
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\AdminWindow.g.cs
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\MainWindow.g.cs
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\App.g.cs
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App_MarkupCompile.cache
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App_MarkupCompile.lref
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\AdminWindow.baml
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\MainWindow.baml
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App.g.resources
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App.AssemblyInfoInputs.cache
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App.AssemblyInfo.cs
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App.csproj.CoreCompileInputs.cache
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App.csproj.CopyComplete
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\refint\LeaderBoard App.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App.pdb
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App.genruntimeconfig.cache
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\ref\LeaderBoard App.dll
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\LeaderBoard App.dll.manifest
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\bin\Release\net6.0-windows\win-x64\LeaderBoard App.application
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App.dll.manifest
+D:\Nathan\Dropbox\Nathan's PC\Documents\Home\RandomGuyStudios\RGDeveloping\VS2022\Leaderboard\LeaderBoard App\LeaderBoard App\obj\Release\net6.0-windows\win-x64\LeaderBoard App.application
